@@ -15,11 +15,17 @@
 
 body{
     background-color: lightgray;
+    color: gray;
 }
 
 ul{
+    padding-top: 20px;
     padding-left: 25px;
     list-style: none;
+}
+
+li{
+    padding-top: 10px;
 }
 
 /* 
@@ -34,6 +40,7 @@ header{
 
 h1{
     display: inline-block;
+    color: rgb(6, 23, 48);
 }
 
 header img, header h1{
@@ -48,4 +55,21 @@ main div{
     background-color: white;
     width: 75%;
     margin: 0 auto;
+    border-radius: 5px;
 }
+
+.container-top{
+    margin-bottom: 3px;
+    padding: 10px 0 10px 20px;
+}
+
+.container-top span{
+    padding: 5px 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+#add-task{
+    background-color: lightblue;
+}
+
