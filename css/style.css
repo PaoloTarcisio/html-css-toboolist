@@ -21,11 +21,16 @@ body{
 ul{
     padding-top: 20px;
     padding-left: 25px;
+    padding-bottom: 20px;
     list-style: none;
 }
 
 li{
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 2em;
 }
 
 /* 
@@ -36,6 +41,7 @@ header{
     background-color: white;
     height: 100px;
     margin-bottom: 100px;
+    padding: 20px 20px;
 }
 
 h1{
@@ -70,6 +76,64 @@ main div{
 }
 
 #add-task{
-    background-color: lightblue;
+    background-color: rgb(96, 170, 229);
+    color: white;
 }
 
+.container-bottom{
+    color: rgb(69, 69, 78);
+}
+
+.freccia-lista{
+    font-size: 20px;
+}
+
+.check{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.done{
+    color: green;
+    border-color: green;
+}
+
+.not-done{
+    color: red;
+    border-color: red;
+}
+
+.topic{
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.editorial{
+    background-color: rgb(96, 170, 229);
+}
+
+.q1{
+    background-color: rgb(149, 118, 221);
+}
+
+.recruiting{
+    background-color: rgb(123, 190, 170);
+}
+
+.mobile{
+    background-color: rgb(230, 161, 75);
+}
+
+.website{
+    background-color: rgb(202, 107, 159);
+}
+
+.sales{
+    background-color: rgb(181, 199, 73)
+}
