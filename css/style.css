@@ -10,17 +10,26 @@
 }
 
 /* 
-    BODY
+    GENERAL
 */
 
 body{
     background-color: lightgray;
 }
 
+ul{
+    padding-left: 25px;
+    list-style: none;
+}
+
+/* 
+    HEADER
+*/
+
 header{
     background-color: white;
     height: 100px;
-
+    margin-bottom: 100px;
 }
 
 h1{
@@ -31,3 +40,12 @@ header img, header h1{
     vertical-align: middle;
 }
 
+/* 
+    MAIN
+*/
+
+main div{
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+}
